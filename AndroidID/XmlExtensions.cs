@@ -10,6 +10,12 @@ namespace AndroidID
 {
     public static class XmlExtensions
     {
+        /// <summary>
+        /// Format given xml document
+        /// http://stackoverflow.com/questions/203528/what-is-the-simplest-way-to-get-indented-xml-with-line-breaks-from-xmldocument
+        /// </summary>
+        /// <param name="doc"></param>
+        /// <returns></returns>
         public static string Beautify(this XDocument doc)
         {
             StringBuilder sb = new StringBuilder();
@@ -26,6 +32,7 @@ namespace AndroidID
             {
                 doc.Save(writer);
             }
+
             return sb.ToString();
         }
     }
