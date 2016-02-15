@@ -22,7 +22,7 @@ namespace Idnator
                 var atrs = node.Attributes().Where(a => a.Name.LocalName == "id").ToList();
                 if (atrs.Count == 0)
                 {
-                    string name = node.Name.LocalName.ToString();
+                    string name = node.Name.LocalName.ToString().Replace(".", "_");
                     int id = 0;
                     var lastNode = _usedAttributes.FindLast(f => f.Name == name);
 

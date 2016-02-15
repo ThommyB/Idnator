@@ -13,6 +13,7 @@ namespace Idnator
     {
         static void Main(string[] args)
         {
+            Console.Title = "Idnator";
             Console.WriteLine("--- Idnator ---");
             string path = "";
 
