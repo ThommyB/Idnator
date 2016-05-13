@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace Idnator
+namespace Idnator.Helpers
 {
     public static class XmlExtensions
     {
