@@ -1,4 +1,4 @@
-# Idnator
+# Idnator [![Build status](https://ci.appveyor.com/api/projects/status/p7k8wlere42vcsof?svg=true)](https://ci.appveyor.com/project/TomasBouda/idnator)
 Simple tool for generating id attribute for every element in android layout.
 
 > This utility was written especially for testing department, where they needed to target element by ID, but problem was that MVVM based app, uses binding instead of ids.
